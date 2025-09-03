@@ -1,50 +1,50 @@
 # Chess AI Game
 
-## Overview
-This project is a chess game that features an AI opponent. The game allows users to play chess against a computer, utilizing an AI that calculates optimal moves based on the current game state.
+## Yleiskuvaus
+Tämä projekti on shakkipeli, jossa on tekoälyvastustaja. Pelissä käyttäjä voi pelata shakkia tietokonetta vastaan, ja tekoäly laskee optimaaliset siirrot pelitilanteen perusteella.
 
-## Project Structure
+## Projektin rakenne
 ```
 chess-ai-game
 ├── src
 │   ├── ai
-│   │   └── ai.ts          # AI logic for the opponent
+│   │   └── ai.ts          # Tekoälyn logiikka
 │   ├── game
-│   │   └── chess.ts       # Game state management
+│   │   └── chess.ts       # Pelitilan hallinta
 │   ├── ui
-│   │   └── board.ts       # User interface for the chessboard
-│   └── index.ts           # Entry point of the application
-├── package.json            # NPM configuration
-├── tsconfig.json           # TypeScript configuration
-└── README.md               # Project documentation
+│   │   └── board.ts       # Käyttöliittymä shakkilaudalle
+│   └── index.ts           # Sovelluksen käynnistyspiste
+├── package.json            # NPM-konfiguraatio
+├── tsconfig.json           # TypeScript-konfiguraatio
+└── README.md               # Projektin dokumentaatio
 ```
 
-## Setup Instructions
-1. Clone the repository:
+## Asennusohjeet
+1. Kloonaa repositorio:
    ```
    git clone <repository-url>
    ```
-2. Navigate to the project directory:
+2. Siirry projektihakemistoon:
    ```
    cd chess-ai-game
    ```
-3. Install the dependencies:
+3. Asenna riippuvuudet:
    ```
    npm install
    ```
-4. Compile the TypeScript files:
+4. Käännä TypeScript-tiedostot:
    ```
    npm run build
    ```
-5. Start the game:
+5. Käynnistä peli:
    ```
    npm start
    ```
 
-## Gameplay
-- The user plays as one side of the chessboard while the AI controls the other.
-- The game follows standard chess rules.
-- The AI opponent calculates its moves based on the current state of the game, providing a challenging experience.
+## Pelaaminen
+- Käyttäjä pelaa valkoisilla, tekoäly pelaa mustilla.
+- Peli noudattaa tavallisia shakkisääntöjä.
+- Tekoäly laskee siirtonsa pelitilanteen perusteella ja tarjoaa haastavan pelikokemuksen.
 
-## Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+## Osallistuminen
+Kaikki kontribuutiot ovat tervetulleita! Voit tehdä pull requestin tai avata issue-ehdotuksen parannuksista tai
