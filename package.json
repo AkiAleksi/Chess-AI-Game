@@ -1,0 +1,27 @@
+{
+  "name": "chess-ai-game",
+  "version": "1.0.0",
+  "description": "A chess game with an AI opponent.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/chess-ai-game.git"
+  },
+  "keywords": [
+    "chess",
+    "ai",
+    "game"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
