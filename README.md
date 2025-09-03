@@ -1,4 +1,4 @@
-# Chess AI Game
+# AI shakki peli
 
 ## Yleiskuvaus
 Tämä projekti on shakkipeli, jossa on tekoälyvastustaja. Pelissä käyttäjä voi pelata shakkia tietokonetta vastaan, ja tekoäly laskee optimaaliset siirrot pelitilanteen perusteella.
